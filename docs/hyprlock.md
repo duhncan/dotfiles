@@ -3,7 +3,7 @@
 > **Platforms:** Linux only — this is a [Hyprland](https://hyprland.org/) lock
 > screen (wm lock). Not used on WSL/Windows machines.
 
-Config lives at [`hypr/hyprlock.conf`](../hypr/hyprlock.conf), symlinked to
+Config lives at [`.config/hypr/hyprlock.conf`](../.config/hypr/hyprlock.conf), symlinked to
 `~/.config/hypr/hyprlock.conf`. It sources `colors.conf` for the palette
 variables referenced below.
 
