@@ -43,13 +43,23 @@ Macchiato everywhere else.
 
 Clone the repo and symlink the components you want into place:
 
+Or use the installer script — it backs up any existing nvim setup to
+`*.bak.<date>` first, then copies the config into place:
+
+```bash
+git clone git@github.com:duhncan/dotfiles.git ~/dotfiles
+~/dotfiles/scripts/install-nvim.sh        # preview with --dry-run, force with -y
+```
+
+Manual symlink method:
+
 ```bash
 git clone git@github.com:duhncan/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 
 mkdir -p ~/.config
 ln -sfn ~/dotfiles/.config/nvim           ~/.config/nvim
-ln -sfn ~/dotfiles/terminal/starship.toml ~/.config/starship.toml
+ln -sfn ~/dotfiles/.config/starship.toml ~/.config/starship.toml
 ln -sfn ~/dotfiles/wezterm/.wezterm.lua   ~/.wezterm.lua        # Linux/Windows
 ln -sfn ~/dotfiles/hypr/hyprlock.conf     ~/.config/hypr/hyprlock.conf  # Linux (Hyprland only)
 ```

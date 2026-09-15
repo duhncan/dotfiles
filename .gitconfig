@@ -1,0 +1,24 @@
+[user]
+	email = duhncang@gmail.com
+	name = duguy
+
+[core]
+	editor = nvim
+	pager = delta
+	abbrev = 8
+
+[init]
+	defaultBranch = main
+
+[interactive]
+	diffFilter = delta --color-only
+
+[delta]
+	navigate = true
+	side-by-side = true
+
+[merge]
+	conflictstyle = diff3
+
+[diff]
+	colorMoved = default

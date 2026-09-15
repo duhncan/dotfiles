@@ -3,8 +3,10 @@
 > **Platforms:** all — works identically in fish, zsh, bash or any prompted
 > shell on Linux, macOS, or Windows (WSL).
 
-Config lives at [`terminal/starship.toml`](../terminal/starship.toml), symlinked
-to `~/.config/starship.toml`.
+Config lives at [`.config/starship.toml`](../.config/starship.toml), symlinked
+to `~/.config/starship.toml`. Or run
+[`scripts/install-starship.sh`](../scripts/install-starship.sh) to place it
+with a dated backup of anything already there.
 
 ## Look
 
