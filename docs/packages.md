@@ -44,6 +44,7 @@ Packages to install on my personal machines.
 ## Cloud / AWS
 - **awscli** — AWS CLI (pip, system)
 - **aws-session-manager-plugin** — SSM (Arch: `aws-session-manager-plugin`)
+- **azcli** — Azure CLI
 
 ## AI Harnesses (`~/.local/bin`)
 - **claude** — Claude Code
